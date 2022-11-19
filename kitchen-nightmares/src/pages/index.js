@@ -1,35 +1,72 @@
 import React from 'react';
+import fanart1 from '../img/fanart1.png';
+import fanart2 from '../img/fanart2.jpeg';
+import fanart3 from '../img/fanart3.jpeg';
+import fanart4 from '../img/fanart4.jpeg';
+import './index.css';
+
+import Carousel from 'react-bootstrap/Carousel';
 
 export default function Home() {
     return (
         <>
-            <h1>Welcome to Gordon Ramsey's fanpage!</h1>
-            <iframe width="1750" height="315" src="https://www.youtube.com/embed/rEMXENwQZA4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            
-            <p>I love gordon!!!1!!
-            I don't realy know much web dev but i knew that  i had to make this website. and i ma very perserverent person so i will endure through this <h3>pain</h3> that is the process of making this in order to appease my my man 
+            <h1>Welcome to Gordon Ramsay's fanpage!</h1>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/rEMXENwQZA4?controls=0&autoplay=1&mute=1&playsinline=1&playlist=rEMXENwQZA4&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="pad-home">
+            <p>I love Gordon!!!!!
+            I don't really know much web dev but I knew that I had to make this website. And I'm a very perseverant person so I will endure through this <b>pain</b> that is the process of making this in order to appease my man.
             </p>
             <p>
-                anyway hewrws some fanart i did yesterday i think it looks prety good hope you like it gardon!!!!!!!! &lt;3
+                Anyway, here's some fanart I did yesterday I thin it looks pretty good, hope you like it Gordon!!!!!!!! &lt;3
             </p>
-            fanart1.png
-            fanart2.jpeg
-            fanart3.jpeg
-            fanart4.jpeg
-
+            </div>
+            <div className="carousel-div">
+                <Carousel variant="dark" className="carousel">
+                    <Carousel.Item>
+                        <img src={fanart1} alt="Fanart 1" className="fanart"/>
+                        <Carousel.Caption>
+                            <h3>Fanart 1</h3>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img src={fanart2} alt="Fanart 2" className="fanart"/>
+                        <Carousel.Caption>
+                            <h3>Fanart 2</h3>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img src={fanart3} alt="Fanart 3" className="fanart"/>
+                        <Carousel.Caption>
+                            <h3>Fanart 3</h3>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img src={fanart4} alt="Fanart 4" className="fanart"/>
+                        <Carousel.Caption>
+                            <h3>Fanart 4</h3>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                </Carousel>
+            </div>
+            <div class="pad-home">
             <section>
                 <h2>Blog</h2>
-                also i didn't mention this before beut i hope you liked the fnacam i made i spent iw hile doing it bc ihave never used movie maker befoer so it was like.. idk pretty outgh whoever made that needs to like talk to people because cearly it is not intutive at all
+                Also i didn't mention this before but I hope you liked the fancam I made. I spent a while doing it because I have never used movie maker before so it was like, I don't know, pretty annoying. Whoever made that needs to like talk to people because clearly it is not intuitive at all!
 
                 <p>
-                    also this whole html thing like it seems so pointless like why can't i just type what i want and have it appear why do i need these random like p??? like i don't wanna type that i just want to type the things that i think and have that appear like is that so hard. man some pople ares uch idiots 
+                    Also this whole HTML thing, like it seems so pointless, like why can't I just type what I want and have it appear, why do I need these random like p? Like I don't wanna type that, I just want to type the things that I think and have that appear like is that so hard? Man, some people are such idiots. 
                 </p>
 
-                <p> OH i justr emeberd i need to go shopping so and i dont want to foreget the things in eed so let me make a list 
-                    - ground beef 
-                    - pa
+                <p> Oh I just remembered, I need to go shopping and I dont want to forget the things I need so let me make a list. 
                 </p>
+                <ul>
+                    <li>ground beef</li>
+                    <li>pa</li>
+                </ul>
             </section>
+            </div>
         </>
     );
 };

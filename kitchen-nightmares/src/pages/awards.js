@@ -1,27 +1,23 @@
 import React from "react";
-
-import img from "../img/fanart30.jpeg";
+import "./awards.css"
 
 export default function Awards() {
     return (
         <>
-            <h1>Awards</h2>
+            <h1 class="titles">Awards</h1>
             <ul>
                 <li>
-                    restaurant gordodn ramsay in london voted top restraurtn uk and has 3 michele stars
+                    Restaurant Gordon Ramsay in London voted Top Restaurant UK and has 3 Michelin stars
                 </li>
                 <li>
-                    officer of the order of the british empire (appointed by quieen elizatbeth) rip
+                    Officer of the Order of the British Empire (appointed by Queen Elizabeth)
                 </li>
                 <li>
-                    guinessess owrld record for fastest time to fillet a fish 1 MINUTE 5 seconds
+                    Guiness World Record for fastest time to fillet a fish 1 minute 5 seconds
                 </li>
                 <li>
-                    <img src={img}/>
+                    Guiness World Record for longest pasta sheet rolled in 60 seconds 1.45 meters
                 </li>
-                <li>
-                    guiness wrold record for longest pasta sheet roleld in 60 seconds 1.45 mieteres wth is a meter
-                </ul>
                 <li>
                     100 most powerful people
                 </li>

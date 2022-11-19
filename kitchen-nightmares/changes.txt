@@ -1,0 +1,20 @@
+* about.js 
+  remove return null
+  wrap in <></>
+
+* awards.js
+  fix unmatching h1/h2 
+  fix unmatching li/ul
+  fanart3.jpg
+  fix typos
+
+* navbar.js
+  reroute each page to it's cooresponding named page
+
+* index.js
+  Change the filenames of the jpgs listed to img tags
+  Created a list for the last <p>
+
+* gallery.js
+  Src not source
+  prettify using cards

@@ -1,0 +1,30 @@
+.fanart {
+    align-items: center;
+}
+
+.carousel-div {
+    width: 100%;
+    align-items: center;
+}
+
+.carousel {
+    align-items: center;
+    text-align: center;
+}
+
+img {
+    height: 750px;
+    padding: 20px;
+}
+.pad-home {
+    padding-left: 15%;
+    padding-right: 15%;    
+}
+
+body {
+    background: url('https://i.pinimg.com/736x/d9/03/98/d903986e5f6c281f08dcd22fe730491a.jpg') center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
